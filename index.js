@@ -1,18 +1,10 @@
-let page = document.getElementsByClassName("page");
+const page = document.querySelector(".page");
 
-let title = [
-  {
-    name: "julien",
-    age: 36,
-    adresse: "4 rue du 7 septembre",
-  },
-];
+page.innerHTML += `
 
-document.body.div.page.innerHTML += title.map(
-  (test) => `
-
-<h1 class="name">${test.name}</h1>
+<h1 class="titre"> titre </h1>
+<p> je suis un robot </p>
 
 
-`
-);
+
+`;
