@@ -53,8 +53,26 @@ a:visited {
 
 .titre {
   margin: 10px;
+  text-align: center;
 }
 
 p {
   margin: 10px;
+  text-align: center;
+}
+
+.mySpan {
+  display: block;
+  text-align: center;
+  margin: 20px;
+  text-transform: uppercase;
+  animation: spanAnim 1s infinite ease-in-out;
+  transform: scale(0);
+  transform-origin: center;
+}
+
+@keyframes spanAnim {
+  100% {
+    transform: scale(1);
+  }
 }

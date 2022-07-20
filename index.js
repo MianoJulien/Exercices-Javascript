@@ -1,10 +1,6 @@
 const page = document.querySelector(".page");
+const mySpan = document.querySelector(".mySpan");
 
-page.innerHTML += `
-
-<h1 class="titre"> titre </h1>
-<p> je suis un robot </p>
-
-
-
-`;
+document.addEventListener("keypress", (e) => {
+  mySpan.innerHTML += e.key;
+});
