@@ -1,6 +1,8 @@
 body {
   background: black;
   color: greenyellow;
+  height: 150vh;
+  position: relative;
 }
 
 header {
@@ -13,8 +15,9 @@ header {
   height: 80vh;
   min-width: 300px;
   max-width: 1000px;
-  margin: auto;
+  margin: 100px auto;
   border: 2px solid greenyellow;
+  pos
 }
 
 h1 {
@@ -92,3 +95,4 @@ p {
   color: blue;
   transition: 0.5s ease-in-out;
 }
+

@@ -4,6 +4,7 @@ const mySpan2 = document.querySelector(".mySpan2");
 page.innerHTML += `<span class="addSpan">couleur aléatoire</span>`;
 const addSpan = document.querySelector(".addSpan");
 const href = document.querySelector("a");
+const h1 = document.querySelector("h1");
 
 document.addEventListener("keypress", (e) => {
   if (e.key) {
@@ -29,8 +30,6 @@ function getColor2() {
 setInterval(getColor, 5000);
 setInterval(getColor2, 1000);
 
-document.addEventListener("scroll", () => {
-  if (srollY > 1) {
-    header.style.visibility = "hidden";
-  }
+document.addEventListener("click", () => {
+  addSpan.remove();
 });
