@@ -83,3 +83,10 @@ p {
   margin: 20px;
   text-transform: uppercase;
 }
+
+.addSpan {
+  display: block;
+  text-align: center;
+  text-transform: uppercase;
+  color: blue;
+}
