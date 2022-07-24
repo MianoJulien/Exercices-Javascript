@@ -29,7 +29,3 @@ function getColor2() {
 }
 setInterval(getColor, 5000);
 setInterval(getColor2, 1000);
-
-document.addEventListener("click", () => {
-  addSpan.remove();
-});
